@@ -1,0 +1,121 @@
+ *{
+   margin:0;
+   padding:0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 1.5px;
+   
+}
+body{
+   background-color: rgba(21, 21, 21, 0.836);
+}
+.head{
+   background-color: rgba(255, 70, 70, 0.574);
+   height:3rem;
+   align-items: center;
+   text-align: center;
+   border-bottom:1rem solid white;
+}
+main {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+   
+   /* align-items: flex-end;
+   text-align: center; */
+}
+
+
+.task{
+   border-top: 1px solid red;
+   border-bottom: 1px solid red;
+   border-right: 1px solid red;
+   display:flex;
+   height: 50vh;
+   width:40rem;
+   background-color: darkgray;
+   font-weight: 500;
+   column-gap: 5px;
+   /* margin-left:10px; */
+   
+   
+}
+
+.task .info{
+   flex:1;
+   
+}
+
+.task .info h5{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.task .info p{
+   flex:2;
+   
+}
+
+.task .dates{
+   flex:1;
+}
+.task .dates label{
+display: block;
+}
+#sect-form{
+   display:flex;
+  /* margin-right:10px; */
+   border-top:1px solid red;
+   border-left:1px solid red;
+   border-bottom:1px solid red;
+   width:23rem;
+   background-color: darkgray;
+ 
+  /* justify-content: center;  */
+}
+
+
+
+#sect-form div.form{
+   display:flex;
+   flex-direction: column;
+   width:23rem;
+  
+   /* margin-left:1rem;
+   margin-right:auto; */
+   background-color: darkgray;
+}
+
+.label{
+   background-color: darkgray;
+}
+
+#sect-form div.control{
+   display:flex;
+   flex-direction: column;
+   width:23rem;
+   text-align: left;
+   padding-bottom:10px;
+   background-color: darkgray;
+   
+}
+
+
+
+.icon-important{
+    color:white; 
+   font-size: 20px;
+   cursor:pointer;
+   background-color: darkgray;
+   
+}  
+.showButton{
+   position:absolute;
+   bottom:0;
+   
+   border:3px solid red;
+}
+
+#btnClear{
+   width:5rem;
+   height:5rem;
+}

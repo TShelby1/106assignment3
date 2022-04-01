@@ -1,0 +1,18 @@
+easier to pick rather than type on both sides
+
+fontawesome for icons
+
+<i class="far fa-star"></i> for not important
+<i class="fas-solid fa-star"></i> important
+
+
+
+to toggle between states in functions like my important button, we first have to know the states
+create a variable, now that we have the state, we can determine if our start state is true or not, is my state important or no?????? create an if statement can let you determine if its true or not and use else to decide if its going to switch or not, the remove class and add class section
+
+
+need to practice to convert to longterm memory, we are using "ram" when we are learning and practicing in class
+
+study http requests
+http verbs/methods
+style the assignment to finish it

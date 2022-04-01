@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    />
+    <title>TaskManager</title>
+  </head>
+  <body>
+    <header class="head">
+      <h1>My Task Manager</h1>
+    </header>
+    <main>
+      <section id="sect-list">
+        <!-- render task here -->
+        <div id="task-container"></div>
+      </section>
+
+      <section id="sect-form" class="section-form">
+        <div class="form">
+          <div class="control">
+            <label class="label">Title:</label>
+            <input id="txtTitle" type="text" />
+          </div>
+
+          <div class="control">
+            <label class="label">Description:</label>
+            <textarea id="txtDesc" rows="3"></textarea>
+          </div>
+
+          <div class="control">
+            <i id="iImportant" class="far fa-star icon-important">Important?</i>
+            <!--add a class to select in css-->
+          </div>
+
+          <div class="control">
+            <label class="label">Start Date:</label>
+            <input id="txtStartDate" type="datetime-local" />
+            <!--pay attention-->
+          </div>
+
+          <div class="control">
+            <label class="label">Due Date:</label>
+            <input id="txtDueDate" type="datetime-local" />
+            <!--pay attention-->
+          </div>
+
+          <div class="control">
+            <label class="label">Color:</label>
+            <input id="selColor" type="color" />
+          </div>
+
+          <div class="control">
+            <select id="txtOption">
+              <option value="1">home</option>
+              <option value="2">work</option>
+              <option value="3">school</option>
+              <option value="4">family</option>
+            </select>
+          </div>
+          <div class="control">
+            <button class="btn" id="btnSave">Save</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="showButton">
+        <button class="btn" id="btnClear">Show/Hide</button>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/task.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
+
